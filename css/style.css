@@ -209,15 +209,3 @@ select {
     opacity: 1;
 }
 
-.resetButton {
-    border-radius: 5px;
-    background: #E2E2E2;
-    margin-right: 30px;
-    border: 1px solid #969696;
-    opacity: 1;
-}
-
-button:hover {
-    color: #fff;
-    background: #008CFF;
-}
