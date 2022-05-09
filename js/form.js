@@ -44,12 +44,13 @@ function validationOnField() {
     });
 }
 
+
 //on click submit Save method call
 const save = (event) => {
     event.preventDefault();
     event.stopPropagation();
     let addressBook = createAddressBook();
-    addAndUpdateLocalStorage(addressBook);
+    addAndUpdateLocalStorage(addressBook); // save updated data into local storage 
     alert("Contact added of : " + addressBook._name);
     window.location.replace(site_properties.home);
 }
